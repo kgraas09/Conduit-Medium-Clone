@@ -1,13 +1,12 @@
 import ReactDOM from 'react-dom';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
-class App extends React.Component {
-  render() {
-    return (
-      <h1>Hello, World!</h1>
-    );
-  }
-}
+const App = () => {
+  return (
+    <h1>Hello, Scrumdog!</h1>
+  );
+};
+
 
 ReactDOM.render((
   <App />
